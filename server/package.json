@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-mocha": "^10.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2"
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Home.css';
 
 class Page extends React.Component {
     public constructor(props: any) {

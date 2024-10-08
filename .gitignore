@@ -13,6 +13,10 @@ hasing.ts
 *.log
 log/
 
+# Build
+build/
+next/
+
 # Logs
 logs
 notUsing.log

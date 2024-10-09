@@ -1,33 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import Layout from "../ui/layout.ui";
+
 import '../css/Home.css';
 
-class Page extends React.Component {
+class Page extends Layout {
     public constructor(props: any) {
         super(props);
     };
 
     private readonly Page = () => {
         return (
-            <div className="App">
-                <header className="App-header">
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                </header>
-          </div>
+            <div className="page">
+                <main>
+                    <div id="last-news"></div>
+
+                    <div className="navigation">
+                        <Link to="/news">Новости</Link>
+                        <Link to="/rules">Правила</Link>
+                    </div>
+                </main>
+            </div>
         );
     };
 
     public render(): React.ReactNode {
-        return this.Page();
+        return this.Layout(this.Page);
     };
 };
 

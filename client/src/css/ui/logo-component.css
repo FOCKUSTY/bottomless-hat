@@ -1,0 +1,46 @@
+.logo {
+    display: flex;
+    position: relative;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 10px;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+}
+
+.logo div {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-main * {
+    margin: 0 2px;
+}
+
+.logo .text {
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2px;
+}
+
+.links * {
+    gap: 5px;
+}
